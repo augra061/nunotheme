@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma+2:400,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #606C76;
+    overflow-x: hidden;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+.underline{
+    width: 3rem;
+    height: .18rem;
+    background-color: #1ebba3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+/*------ START NAVBAR SECTION ------*/
+.navbar-section{
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.6)!important;
+        img{
+            height: 2rem;
+        }
+        .collapse{
+            ul{
+                li{
+                    a{
+                        color: white;
+                        text-transform: uppercase;
+                        letter-spacing: .3rem;
+                        font-size: .8rem;
+                        padding-right: 1.2rem;
+                        font-weight: 700;
+                    }
+                    a:hover{
+                        color: #1ebba3;
+                    }
+                }
+            }
+        }
+    }
+}
+/*------ END NAVBAR SECTION ------*/
+
+/*------ START LANDING SECTION ------*/
+#landing-section{
+    .landing-bg{
+        background: url(../img/computers.png) no-repeat center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: block!important;
+        height: 100vh;
+        .narrow{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 100%;
+            color: white;
+            text-transform: uppercase;
+            .title{
+                padding-top: 9rem;
+                font-size: 4.5rem;
+                font-weight: 400;
+                letter-spacing: .4rem;
+                margin-bottom: 1.5rem;
+                text-shadow: 0.1rem 0.1rem 0.8rem black;
+            }
+            .subtitle{
+                font-size: 1.8rem;
+                letter-spacing: .3rem;
+                margin-bottom: 3rem;
+            }
+            .btn-lg{
+                letter-spacing: .1rem;
+                padding-top: .7rem;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    #landing-section{
+        .landing-bg{
+            .narrow{
+                width: 95%;
+                .title{
+                    padding-top: 14rem;
+                    font-size: 2.6rem;
+                    margin-bottom: 2.5rem;
+                }
+                .subtitle{
+                    font-size: 1.3rem;
+                    margin-bottom: 5rem;
+                }
+                .btn-lg{
+                    width: 45%;
+                }
+            }
+        }
+    }
+}
+/*------ END LANDING SECTION ------*/
+
+/*------ START COURSE SECTION ------*/
+#course-section{
+    .narrow{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        width: 80%;
+        color: #404740;    
+        .title{
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: .4rem;
+            font-size: 4rem;
+            margin-bottom: -.5rem;
+        }
+        .subtitle{
+            font-size: 1.9rem;
+            margin-bottom: 2rem;
+            letter-spacing: .05rem;
+        }
+        .paragraph{
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+        }
+        .btn{
+            text-transform: capitalize;
+            letter-spacing: .05rem;
+            padding-top: 1rem;
+        }
+    }
+}
+@media (max-width: 767px){
+    #course-section{
+        .narrow{
+            width: 95%;    
+            .title{
+                font-size: 3rem;
+            }
+            .subtitle{
+                font-size: 1.5rem;
+            }
+            .paragraph{
+                font-size: 1.1rem;
+            }
+            .btn{
+                text-transform: capitalize;
+                letter-spacing: .05rem;
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+/*------ END COURSE SECTION ------*/
+
+/*------ START FEATURE SECTION ------*/
+#feature-section{
+    .feature-bg{
+        background-color: #e9ecef;
+        .narrow{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            text-align: center;
+            width: 85%;
+            color: #404740;   
+            .title{
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: .4rem;
+                font-size: 4rem;
+                margin-bottom: -.5rem;
+            }
+            .fa{
+                color: #1ebba3;
+                font-size: 2.3rem;
+                margin-bottom: 1.5rem;
+            }
+            .subtitle{
+                text-transform: capitalize;
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            .paragraph{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    #feature-section{
+        .feature-bg{
+            .narrow{
+                width: 95%;   
+                .title{
+                    font-size: 3rem;
+                }
+                .subtitle{
+                    font-size: 1.4rem;
+                }
+                .paragraph{
+                    font-size: 1rem;
+                }
+                .distance{
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+}
+/*------ END FEATURE SECTION ------*/
+
+/*------ START RESOURCE SECTION ------*/
+#resource-section{
+    .resource-bg{
+        background: url(../img/apple.png) no-repeat center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: block!important;
+        .narrow{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 9rem;
+            padding-bottom: 9rem;
+            text-align: center;
+            width: 100%;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.75)!important;
+            .title{
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: .4rem;
+                font-size: 4rem;
+                margin-bottom: -.5rem;
+            }
+            .fa{
+                color: #1ebba3;
+                font-size: 2.3rem;
+                margin-bottom: 1.5rem;
+            }
+            .subtitle{
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            .paragraph{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    #resource-section{
+        .resource-bg{
+            .narrow{
+                .title{
+                    font-size: 3rem;
+                }
+                .subtitle{
+                    font-size: 1.8rem;
+                }
+                .paragraph{
+                    font-size: 1.3rem;
+                }
+                .distance{
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+}
+/*------ END RESOURCE SECTION ------*/
+
+/*------ START CLIENTS SECTION ------*/
+#client-section{
+    .client-bg{
+        background-color: #e9ecef;
+        .narrow{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            width: 90%;
+            color: #404740;   
+            .title{
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: .4rem;
+                font-size: 4rem;
+                margin-bottom: -.5rem;
+                text-align: center;
+            }
+            .client-img{
+                width: 100%;
+                border-radius: 50%;
+            }
+            .fa-quote-left{
+                margin-right: 1rem;
+            }
+            .fa-quote-right{
+                margin-left: 1rem;
+            }
+            .clients-underline{
+                border-bottom: 1px solid #1ebba3 !important;
+                margin-top: 1rem;
+                margin-bottom: 1rem;  
+            }
+            .author-paragraph{
+                text-align: left;
+                font-style: italic;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    #client-section{
+        .client-bg{
+            .narrow{
+                width: 85%;
+                .title{
+                    font-size: 3rem;
+                }
+                .client-img{
+                    max-width: 50%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 2rem;
+                }
+                .distance-img{
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }   
+}
+/*------ END CLIENTS SECTION ------*/
+
+/*------ START CONTACT SECTION ------*/
+#contact-section{
+    .contact-bg{
+        background-color: #40474E;
+        .narrow{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            text-align: center;
+            width: 60%;
+            color: white;
+        }
+        .logo-img-contact{
+            height: 3rem;
+            margin-bottom: 2rem;
+        }
+        .paragraph{
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        .contact-info{
+            font-size: 1.3rem;
+            margin-bottom: 0rem;
+        }
+        .telephone{
+            font-size: 1.1rem;
+            letter-spacing: .05rem;
+            margin-bottom: 0rem;
+        }
+        .fa{
+            color: white;
+            font-size: 2rem;
+            margin-right: .5rem;
+        }
+        .fa:hover{
+            color: #1ebba3;
+        }
+        .copyright-line{
+            width: 100%;
+            border-top: .08rem solid #666b71;
+            margin-top: 3rem;
+        }
+        .copyright{
+            text-align: center;
+            color: #B1BFA8;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: -1rem;
+            padding-bottom: 1rem;
+        }
+    }
+}
+@media (max-width: 767px){
+    #contact-section{
+        .contact-bg{
+            .narrow{
+                width: 80%;
+            }
+            .logo-img-contact{
+                height: 2.5rem;
+            }
+            .paragraph{
+                font-size: 1rem;
+            }
+            .contact-info{
+                font-size: 1.1rem;
+            }
+            .telephone{
+                font-size: 1rem;
+                letter-spacing: .02rem;
+            }
+            .fa{
+                font-size: 1.7rem;
+                margin-left: 1rem;
+            }
+        }
+    }   
+}
+/*------ START CONTACT SECTION ------*/
