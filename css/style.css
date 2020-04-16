@@ -68,7 +68,7 @@ body {
 }
 
 #landing-section .landing-bg .narrow .title {
-  padding-top: 9rem;
+  padding-top: 10rem;
   font-size: 4.5rem;
   font-weight: 400;
   letter-spacing: .4rem;
@@ -92,7 +92,6 @@ body {
     width: 95%;
   }
   #landing-section .landing-bg .narrow .title {
-    padding-top: 14rem;
     font-size: 2.6rem;
     margin-bottom: 2.5rem;
   }
